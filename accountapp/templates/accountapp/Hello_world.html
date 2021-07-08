@@ -4,9 +4,18 @@
 
     <div style="margin: 2rem; text-align: center">
         <h1>METHOD</h1>
-        
+
+        <form action = "/accounts/hello_world/" method="post">
+            {% csrf_token %}
+            <input type = "text" name = "hello_world_input" />"
+            <input class="btn btn-info px-4" type = "submit">
+
+        </form>
+        {% if hello_world_output %}
 
         <h3>{{ text }}</h3>
+
+        {% endif %}
 
     </div>
 
