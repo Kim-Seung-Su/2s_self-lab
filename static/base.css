@@ -1,0 +1,30 @@
+.Engineering_header_all{
+    font-family: 'Roboto Mono', cursive;
+    text-align:center;
+}
+
+
+.Engineering_header_1{
+    margin : 2rem 0;
+    font-family: 'Roboto Mono', cursive;
+}
+
+.Engineering_header_2{
+    font-size: .5rem;
+    margin : 1.5rem 0;
+}
+
+.Engineering_footer_all{
+    text-align: center;
+    border-radius: 1rem; margin: 2rem 0;
+}
+
+.Engineering_footer_1{
+    font-family: 'Roboto Mono', cursive;
+    font-size: .8rem;
+    margin : 1.5rem 0;
+}
+
+.mw-500 {
+    max-width: 500px;
+}
